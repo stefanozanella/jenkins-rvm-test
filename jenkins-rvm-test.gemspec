@@ -8,8 +8,8 @@ Gem::Specification.new do |s|
   s.authors     = ["Stefano Zanella"]
   s.email       = ["stefano.zanella@derecom.it"]
   s.homepage    = ""
-  s.summary     = %q{TODO: Write a gem summary}
-  s.description = %q{TODO: Write a gem description}
+  s.summary     = %q{Simple gem to test RVM integration in Jenkins}
+  s.description = %q{This gem does nothing interesting.}
 
   s.rubyforge_project = "jenkins-rvm-test"
 
