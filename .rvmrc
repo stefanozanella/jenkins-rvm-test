@@ -32,3 +32,7 @@ else
     return 1
   }
 fi
+
+if [[ -s ".gems" ]] ; then
+				  rvm gemset import | grep -v already | grep -v listed | grep -v complete | sed '/^$/d'
+fi
